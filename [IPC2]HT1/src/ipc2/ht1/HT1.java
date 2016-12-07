@@ -19,7 +19,7 @@ public class HT1 extends javax.swing.JFrame {
     public HT1() {
         initComponents();
     }
-
+//Codificacion operacion 2, creacion de nueva clase para dicha operacion
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -190,7 +190,10 @@ public class HT1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-      
+      Operacion3 reemplazo;
+        reemplazo = new Operacion3();
+        reemplazo.reemplazando(Texto, Buscando.getText(), Reemplazando.getText());
+         
          
     }//GEN-LAST:event_jButton3ActionPerformed
 
