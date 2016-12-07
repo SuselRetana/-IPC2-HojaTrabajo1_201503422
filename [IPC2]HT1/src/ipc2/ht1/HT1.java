@@ -198,7 +198,9 @@ public class HT1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-  
+        Operacion4 ordenando;
+        ordenando = new Operacion4();
+        ordenando.Llenando(Texto);
              }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
