@@ -1,0 +1,13 @@
+* ¿Qué entiende como "commit"?
+R//     Es el comando el cual tiene como funcion guardar 
+	las configuraciones realizadas en los repositorios.
+
+*¿Qué entiende como "merge"?
+R// 	El comando que tiene como función el unir las distintas
+	ramas, etc.
+
+*¿Cuál es la diferencia entre "Pull" y "Push"?
+R//	->Push: El comando con función de cargar el repositorio obtenido
+		en la máquina, a la nube.
+	->Pusll: El comando con función de descargar el repositorio obtenido
+		en la nube a la máquina.
