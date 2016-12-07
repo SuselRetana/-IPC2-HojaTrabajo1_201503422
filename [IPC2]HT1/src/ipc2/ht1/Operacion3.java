@@ -13,7 +13,7 @@ import javax.swing.*;
 public class Operacion3 {
    public void reemplazando (JTextPane area1, String reemplazar, String nueva){
         if(reemplazar.length() >= 1 && nueva.length()>=1) {
-            area1.setText(area1.getText().replace(reemplazar,nueva));
+            area1.setText(area1.getText().replace(reemplazar,nueva + "_201503422"));
         }else{
             JOptionPane.showMessageDialog(area1,"Asegurese de haber llenado ambos campos");
         }
